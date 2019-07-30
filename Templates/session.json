@@ -1,0 +1,67 @@
+{
+  "data": {
+    "record": [
+      {
+        "Type": "Session",
+        "Availabilities": [
+          {
+            "__type": "UserAvailability:www.CornerStoneOnDemand.com/Services/LMS",
+            "IncludeSubs": true,
+            "PreApproved": true,
+            "RegisterUponApproval": false,
+            "Id": "wsadmin"
+          },
+          {
+            "__type": "OUAvailability:www.CornerStoneOnDemand.com/Services/LMS",
+            "IncludeSubs": true,
+            "PreApproved": true,
+            "RegisterUponApproval": false,
+            "Id": "ABC corp",
+            "SubType": "Division"
+          }
+        ],
+        "AvailableLanguages": [
+          {
+            "Language": "English (UK)",
+            "LanguageID": "en-GB"
+          }
+        ],
+        "SubjectTitles": [
+          {
+            "Title": "Abc"
+          }
+        ],
+
+        "SessionItem": {
+
+          "EventID": "MIGEV150",
+          "SessionID": "AP_Sess001_test21_6302019",
+          "SessionOccurrence": "String content",
+          "RegistrationDeadlineNumber": 1,
+          "RegistrationDeadlineType": "Minutes",
+          "RegistrationDeadlinePeriod": "Before",
+          "MinimumRegistration": 1,
+          "MaximumRegistration": 100,
+          "Parts": [
+            {
+              "PartName": "Part AP0011",
+              "PartDescription": "AP_New Part- WS",
+              "PartLocation": "2000",
+              "IsPartLocationConfirmationRequired": false,
+              "PartStartDateTime": "2018-09-30T11:20:00",
+              "PartEndDateTime": "2019-09-30T18:20:00",
+              "PartOccurrence": "ONCE",
+
+              "PartBreaks": [
+                {
+                  "Title": "Coffee Break",
+                  "Duration": 20
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

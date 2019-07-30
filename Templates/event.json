@@ -1,0 +1,136 @@
+{
+	"data": {
+		"record": [{
+			"ActorID": "wsadmin",
+			"Type": "Event",
+			"TrainingHours": 3,
+			"TrainingMins": 30,
+      "Availabilities": [
+        {
+          "__type": "UserAvailability:www.CornerStoneOnDemand.com/Services/LMS",
+          "IncludeSubs": true,
+          "PreApproved": true,
+          "RegisterUponApproval": false,
+          "Id": "wsadmin"
+        },
+        {
+          "__type": "OUAvailability:www.CornerStoneOnDemand.com/Services/LMS",
+          "IncludeSubs": true,
+          "PreApproved": true,
+          "RegisterUponApproval": false,
+          "Id": "ABC corp",
+          "SubType": "Division"
+        }
+      ],
+			"AvailableLanguages": [{
+				"Language": "English (US)",
+				"LanguageID": "en-US"
+			}],
+      "SubjectTitles": [
+        {
+          "Title": "Abc"
+        }],
+			"EventItem": {
+				"EventName": "Radhika Json Event_6272019",
+				"EventNumber": "5556",
+				"PrimaryProviderName": "External Training",
+				"Description": "Testing Json Request",
+				"Objectives": "To test JSON request",
+				"OptionsActive": true,
+				"OptionAllowUsers": true,
+				"OptionAllowInterestTracking": true,
+				"AbilityToSelectSessions": "All",
+				"Keywords": "test, stage",
+				"CopyAvailabilityToNewSessions": true,
+				"DefaultPrice": 12,
+				"DefaultPriceCurrency": "USD",
+				"PricingItems": [{
+					"PriceType": "ACTIVE",
+					"LoPricingItems": [{
+						"LoOuPricingItemObject": {
+							"OuId": "ABC corp",
+							"OuTypeId": "Division",
+							"IncludeSubordinateOus": true
+						},
+						"EffectiveFromDate": "2019-06-30T11:20:00",
+						"EffectiveToDate": "2019-07-30T11:20:00",
+						"PriceCurrency": "USD",
+						"UnitPrice": 10,
+						"Discount": 5,
+						"Registration": 0,
+						"Delivery": 0
+					}]
+				},
+				{
+					"PriceType": "FUTURE",
+					"LoPricingItems": [{
+						"LoOuPricingItemObject": {
+							"OuId": "ABC corp",
+							"OuTypeId": "Division",
+							"IncludeSubordinateOus": true
+						},
+						"EffectiveFromDate": "2020-05-01T11:20:00",
+						"EffectiveToDate": "2020-08-20T11:20:00",
+						"PriceCurrency": "USD",
+						"UnitPrice": 10,
+						"Discount": 5,
+						"Registration": 0,
+						"Delivery": 0
+					}]
+				}],
+				"LoTrainPriceType": "DisassociateConversion",
+				"TrainingUnitDefaultPrice": 10,
+				"TrainingUnitPricingItems": [{
+					"TrainingUnitPriceType": "ACTIVE",
+					"LoTrainingUnitPricingItems": [{
+						"LoOuPricingItemObject": {
+							"OuId": "ABC corp",
+							"OuTypeId": "Division",
+							"IncludeSubordinateOus": true
+						},
+						"EffectiveFromDate": "2018-06-25T11:20:00",
+						"EffectiveToDate": "2019-08-30T11:20:00",
+						"PriceCurrency": "USD",
+						"UnitPrice": 10,
+						"Discount": 5,
+						"Registration": 1,
+						"Delivery": 1
+					}]
+				},
+				{
+					"TrainingUnitPriceType": "FUTURE",
+          "LoTrainingUnitPricingItems": [
+            {
+              "LoOuPricingItemObject": {
+                "OuId": "ABC corp",
+                "OuTypeId": "Division",
+                "IncludeSubordinateOus": true
+              },
+              "EffectiveFromDate": "2020-06-25T11:20:00",
+              "EffectiveToDate": "2020-08-30T11:20:00",
+              "PriceCurrency": "USD",
+              "UnitPrice": 10,
+              "Discount": 5,
+              "Registration": 1,
+              "Delivery": 1
+            }
+          ]
+				}],
+				"RegistrationDeadlineNumber": 2,
+				"RegistrationDeadlineType": "Minutes",
+				"RegistrationDeadlinePeriod": "Before",
+				"MinimumRegistration": 10,
+				"MaximumRegistration": 50,
+				"AllowWaitlist": true,
+				"StudentGrantedDays": 10,
+				"StudentGrantedHours": 2,
+				"WaitlistExpiresDays": 1,
+				"WaitlistExpiresHours": 0,
+				"AllowAdvanceRegistration": true,
+				"AdvancedRegistrationPeriod": 2,
+				"AdvanceRegistrationPreApproved": false,
+				"AdvanceRegistrationRegister": false
+			}
+		}]
+	}
+}
