@@ -1,0 +1,19 @@
+{
+  "name": "csod-creating-new-event-and-session-sample-code-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "nconf": "^0.10.0"
+  }
+}

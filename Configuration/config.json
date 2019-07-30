@@ -1,0 +1,8 @@
+{
+	"ClientId": "<Enter the client id from the portal>",
+	"ClientSecret": "<Enter the client secret from the portal>",
+	"GrantType": "<Default grant type is client_credentials>",
+	"Scope": "<Default scope is all>",
+	"ServiceURL": "https://[portal].csod.com/Services/api/LO/Create",
+	"CourseType": "<Either session or event>"
+}
